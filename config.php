@@ -47,7 +47,7 @@ $baseMsg3 = " at ";
 $closer = "";
 
 $timeZone = "America/New_York";
-$theDay = date("Ymd", strtotime("-1 days")); //The day we are reminding people about.
+$theDay = date("Ymd", strtotime("+1 days")); //The day we are reminding people about.
 $nl = " <br>\r\n"; //How a new line should be represented in the logging output
 
 date_default_timezone_set($timeZone);
